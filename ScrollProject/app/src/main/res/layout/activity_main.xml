@@ -4,15 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.soul.scrollproject.MainActivity">
 
-    <TextView
-        android:id="@+id/tv_fads"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+    <com.example.soul.scrollproject.HOverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="200dp"
+            android:background="#0000ff"
+            android:layout_height="200dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:background="#00ff00"/>
+        <View
+            android:layout_width="200dp"
+            android:background="#0000ff"
+            android:layout_height="200dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:background="#00ff00"/>
+        <View
+            android:layout_width="200dp"
+            android:background="#0000ff"
+            android:layout_height="200dp"/>
+        <View
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:background="#00ff00"/>
+
+    </com.example.soul.scrollproject.HOverScrollView>
+
+
 </RelativeLayout>
