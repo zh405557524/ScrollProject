@@ -1,42 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.soul.scrollproject.MainActivity">
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
 
-    <com.example.soul.scrollproject.HOverScrollView
+    <Button
+        android:id="@+id/bt_overscroll"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:text="overscroll"/>
 
-        <View
-            android:layout_width="200dp"
-            android:background="#0000ff"
-            android:layout_height="200dp"/>
-        <View
-            android:layout_width="500dp"
-            android:layout_height="500dp"
-            android:background="#00ff00"/>
-        <View
-            android:layout_width="200dp"
-            android:background="#0000ff"
-            android:layout_height="200dp"/>
-        <View
-            android:layout_width="500dp"
-            android:layout_height="500dp"
-            android:background="#00ff00"/>
-        <View
-            android:layout_width="200dp"
-            android:background="#0000ff"
-            android:layout_height="200dp"/>
-        <View
-            android:layout_width="500dp"
-            android:layout_height="500dp"
-            android:background="#00ff00"/>
-
-    </com.example.soul.scrollproject.HOverScrollView>
+    <Button
+        android:id="@+id/bt_pulldown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pulldown"/>
 
 
-</RelativeLayout>
+</LinearLayout>

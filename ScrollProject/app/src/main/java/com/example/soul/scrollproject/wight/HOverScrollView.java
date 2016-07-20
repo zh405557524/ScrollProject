@@ -1,4 +1,4 @@
-package com.example.soul.scrollproject;
+package com.example.soul.scrollproject.wight;
 
 import android.content.Context;
 import android.graphics.Canvas;
